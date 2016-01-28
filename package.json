@@ -1,0 +1,19 @@
+{
+  "name": "html-to-elm",
+  "main": "./lib/html-to-elm",
+  "version": "0.1.0",
+  "description": "Convert selected html to elm",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "html-to-elm:convert"
+  },
+  "repository": "https://github.com/CodeTownOfficial/html-to-elm",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.9.0"
+  }
+}

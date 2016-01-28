@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Convert HTML to ELM'
+      'command': 'html-to-elm:convert'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'HTML to ELM'
+      'submenu': [
+        {
+          'label': 'Convert Selection'
+          'command': 'html-to-elm:convert'
+        }
+      ]
+    ]
+  }
+]
