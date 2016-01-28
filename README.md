@@ -3,7 +3,7 @@
 Convert the selected HTML text to Elm.
 
 ## Example
-![A screenshot of your package](./img/demo.gif)
+![A screenshot of your package](https://raw.githubusercontent.com/CodeTownOfficial/html-to-elm/master/img/demo.gif)
 
 ## Usage
 
