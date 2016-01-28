@@ -1,0 +1,25 @@
+{
+  "predef": [
+    "console",
+    "atom",
+    "beforeEach",
+    "describe",
+    "it",
+    "expect",
+    "waitsForPromise",
+    "runs",
+    "activationPromise"
+  ],
+  "unused": "vars",
+  "undef": true,
+  "indent": 4,
+  "quotmark": "single",
+  "trailing": true,
+  "latedef": "nofunc",
+  "maxdepth": 3,
+  "nonbsp": true,
+  "node": true,
+  "browser": true,
+  "strict": true,
+  "esnext": true
+}
