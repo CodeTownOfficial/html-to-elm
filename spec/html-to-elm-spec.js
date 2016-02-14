@@ -56,13 +56,13 @@ describe('HtmlToElm', () => {
       '      []\n' +
       '      [ text "todos" ]\n' +
       '    , input\n' +
-      '      [ id "new-todo" placeholder "What to do you need?" ]\n' +
+      '      [ id "new-todo", placeholder "What to do you need?" ]\n' +
       '      []\n' +
       '    ]\n' +
       '  , section\n' +
       '    [ id "main" ]\n' +
       '    [ input\n' +
-      '      [ name "toggle" id "toggle-all" type\' "undefined" ]\n' +
+      '      [ name "toggle", id "toggle-all", type\' "undefined" ]\n' +
       '      []\n' +
       '    , label\n' +
       '      [ for "toggle-all" ]\n' +
