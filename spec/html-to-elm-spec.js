@@ -62,7 +62,7 @@ describe('HtmlToElm', () => {
       '  , section\n' +
       '    [ id "main" ]\n' +
       '    [ input\n' +
-      '      [ name "toggle", id "toggle-all", type\' "undefined" ]\n' +
+      '      [ name "toggle", id "toggle-all", type_ "undefined" ]\n' +
       '      []\n' +
       '    , label\n' +
       '      [ for "toggle-all" ]\n' +
